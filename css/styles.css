@@ -30,7 +30,15 @@ body {
     text-decoration: none;
    
 }
-
+/* Responsive for navbar menue */
+@media screen and (max-width:580px)
+{
+    .navbar__menu{
+        width: 50%;
+        margin-right: 0;
+    }
+    
+}
 
 /* Typeography General*/
 h1 {
